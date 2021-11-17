@@ -2,7 +2,7 @@
 int main()
 {
     int n,fact=1;
-    printf("Enter the No. to chect factorial : ");
+    printf("Enter the No. to check factorial : ");
     scanf("%d",&n);
     for (int i = n ; i > 1 ; i--)
     {
