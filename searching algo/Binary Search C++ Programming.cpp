@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> 
+#include <iostream> 
 using namespace std; 
   
 // A recursive binary search function. It returns 
