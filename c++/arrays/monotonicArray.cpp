@@ -1,19 +1,44 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-bool isMonotonic(int nums[],int size) {
-        bool ans = true;
-        for(int i = 1;i < size ;i++){
-            if(nums[i] < nums[i-1]){
+bool isMonotonic(int nums[], int size)
+{
+    bool ans = true;
+    if (nums[0] > nums[1])
+    {
+        for (int i = 1; i < size; i++)
+        {
+            if (nums[i] == nums[i - 1]){
+                continue;
+            }
+            if (nums[i] > nums[i - 1])
+            {
                 ans = false;
                 break;
             }
         }
-        return ans;
+    }
+    else
+    {
+        for (int i = 1; i < size; i++)
+        {
+        if (nums[i] == nums[i - 1]){
+                continue;
+            }
+            if (nums[i] < nums[i - 1])
+            {
+                ans = false;
+                break;
+            }
+        }
     }
 
-int main(){
-    int arr[5] = {1,2,2,3,4};
-    cout << "Bool : " << isMonotonic(arr, 5);
+    return ans;
+}
+
+int main()
+{
+    int arr[3] = {1, 1, 0};
+    cout << "Bool : " << isMonotonic(arr, 3);
     return 0;
 }
