@@ -11,6 +11,7 @@ int fibo(int n){
 }
 int main()
 {
+    system("cls");
     int n;
     cout << "Enter a number to calculate fibo series : " << endl;
     cin >> n;
