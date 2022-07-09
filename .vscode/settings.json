@@ -7,7 +7,8 @@
         "utility": "cpp",
         "limits": "cpp",
         "cmath": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "xutility": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
