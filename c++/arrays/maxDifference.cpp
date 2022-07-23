@@ -18,7 +18,7 @@ int main()
         for (int j = i; j < nums.size(); j++)
         {
             max = nums[j] - nums[i];
-            cout << max <<endl;
+            // cout << max <<endl;
             arr.push_back(max);
         }
     }

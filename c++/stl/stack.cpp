@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
+    system("cls");
     stack<int> s;
     s.push(10);
     s.push(20);
