@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     system("cls");
-    int n,ans;
+    int n, ans;
     cout << "enter n : ";
     cin >> n;
     cout << "enter index : ";
@@ -27,6 +27,6 @@ int main()
         }
     }
     cout << endl;
-    cout << "ans is : " <<arr[ans];
+    cout << "ans is : " << arr[ans];
     return 0;
 }
