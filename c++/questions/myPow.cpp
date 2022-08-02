@@ -6,18 +6,23 @@ double myPow(double x, int n)
     {
         return x;
     }
-    x = x * x;
-    return myPow(x, n - 1);
+    else
+    {
+        return x * myPow(x, n - 1);
+    }
 }
 
 int main()
 {
-    // cout << myPow(2, 10);
-    int x = 2, n = 10;
-    for (int i = 0; i < n; i++)
+    system("cls");
+    int x = 2, n = 8;
+    int ans = 1;
+    for (int i = 1; i <= n; i++)
     {
-        x=x*x;
+        ans=ans*x;
     }
-    cout << x;
+    // int ans = pow(x,n);
+    // cout << myPow(2, 8);
+    cout << ans;
     return 0;
 }

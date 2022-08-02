@@ -1,2 +1,8 @@
- ans.push_back(arr[0]);
-    ans.push_back(arr[1]);
+string reverseStr(string s)
+// {
+//     if (s.length==0)
+//     {
+//         return s;
+//     }
+//     return reverseStr()
+// }
