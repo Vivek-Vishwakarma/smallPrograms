@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    //use to_string() to convert integer into string
     system("cls");
     string str = "hello";
     string test = "testing";
