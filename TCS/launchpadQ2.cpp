@@ -1,23 +1,28 @@
 #include <bits/stdc++.h>
 using namespace std;
-unordered_map<char,int> countVowels(string s){
-    unordered_map<char,int> mp;
+unordered_map<char, int> countVowels(string s)
+{
+    unordered_map<char, int> mp;
     for (int i = 0; i < s.length(); i++)
     {
-        if (s[i]=='a' || s[i]=='A')
+        if (s[i] == 'a' || s[i] == 'A')
         {
             mp['a']++;
         }
-        else if(s[i]=='e' || s[i]=='E'){
+        else if (s[i] == 'e' || s[i] == 'E')
+        {
             mp['e']++;
         }
-        else if(s[i]=='i' || s[i]=='I'){
+        else if (s[i] == 'i' || s[i] == 'I')
+        {
             mp['i']++;
         }
-        else if(s[i]=='o' || s[i]=='O'){
+        else if (s[i] == 'o' || s[i] == 'O')
+        {
             mp['o']++;
         }
-        else if(s[i]=='u' || s[i]=='U'){
+        else if (s[i] == 'u' || s[i] == 'U')
+        {
             mp['u']++;
         }
     }
@@ -25,16 +30,23 @@ unordered_map<char,int> countVowels(string s){
     {
         cout << "No vowels found.";
     }
-    for(auto it : mp){
-        cout <<  "'" << it.first << "'" << ": " << it.second<< endl;
+    else
+    {
+        return mp;
     }
+    // for(auto it : mp){
+    //     cout <<  "'" << it.first << "'" << ": " << it.second<< endl;
+    // }
     return mp;
-    
 }
 int main()
 {
     system("cls");
-    countVowels("Good Morning All");
+    unordered_map<char, int> ans = countVowels("Good Morning All");
+    for (auto it : ans)
+    {
+        cout << it.second;
+    }
     return 0;
 }
 /*

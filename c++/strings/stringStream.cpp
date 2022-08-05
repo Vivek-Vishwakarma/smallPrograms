@@ -9,7 +9,7 @@ int main()
     string word;
     while (s >> word)
     {
-        
+        // cout << word << " ";
     }
     cout << word;
     return 0;
