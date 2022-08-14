@@ -12,7 +12,6 @@ public:
         address = address;
         gender = gender;
     }
-
     void countVowels(string name)
     {
         int count = 0;
@@ -76,10 +75,6 @@ Add another method to the class as below:
 countDigits: This method will count how many digits are there in the Address of the Person and return.
 
 Define the main section for the following:
-
-
-
-
 
 Create a Person object as per the specification above.
 
