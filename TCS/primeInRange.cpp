@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 void primeInRange(int L, int R)
 {
     int flag;
@@ -21,7 +20,6 @@ void primeInRange(int L, int R)
             cout << i << " ";
     }
 }
-
 // Driver Code
 int main()
 {

@@ -1,9 +1,5 @@
-TShirt
-// Fashion
-// 3
-// Disney
-// 400
-// Champion
-// 600
-// Lee Cooper
-// 500
+ // while (mp[arr2[i]].second>0)
+        // {
+        //     cout << mp[arr2[i]].first << " ";
+        //     mp[arr2[i]].second--;
+        // }
