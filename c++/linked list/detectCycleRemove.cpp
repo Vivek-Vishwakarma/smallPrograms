@@ -75,7 +75,7 @@ int main()
     fifth->next = NULL;
 
     display(head);
-    // makeCycle(head,2);
+    makeCycle(head,2);
     // display(head);
     cout << detectCycle(head);
     return 0;
