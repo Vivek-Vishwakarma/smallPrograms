@@ -23,7 +23,7 @@ int main()
     //     cout << endl;
     // }
 
-    // Optimised solution that we use now a days
+    // Optimised solution that we use now a days (use of vectors)
     int node, edges;
     cin >> node >> edges;
     vector<int> graph[node + 1];

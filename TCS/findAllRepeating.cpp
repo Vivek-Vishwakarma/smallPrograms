@@ -4,7 +4,6 @@
 using namespace std;
 void printIndex(string str, string s)
 {
-
     bool flag = false;
     for (int i = 0; i < str.length(); i++)
     {
